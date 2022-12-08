@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  width: 100wv;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #161618;
+  /* color: cornflowerblue; */
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #818181;
+  font-size: 2rem;
+}
+
+section .actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+section .actions button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  color: #000;
+  background-color: #818181;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+section .actions button:hover {
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+section .actions button:first-child:hover {
+  background-color: #e52e2e;
+  box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+}
+
+section .actions button:last-child:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+#canvas {
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  /* border-radius: 4px; */
+  background-color: #212124;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
